@@ -1,0 +1,20 @@
+name:                music
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/PWhiddy/music#readme
+license:             BSD3
+author:              Peter Whidden
+maintainer:          all.cows.like.to.moo@gmail.com
+copyright:           2018 Peter Whidden
+category:            Audio
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+
+executables:
+  music:
+    source-dirs:      src
+    main:             Main.hs

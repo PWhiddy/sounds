@@ -1,0 +1,29 @@
+-- This file has been generated from package.yaml by hpack version 0.28.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: c5aecff9b5356ea94c07bea40f88e06bb2ac29961243280feadd55ecb22ca47d
+
+name:           music
+version:        0.1.0.0
+category:       Audio
+homepage:       https://github.com/PWhiddy/music#readme
+author:         Peter Whidden
+maintainer:     all.cows.like.to.moo@gmail.com
+copyright:      2018 Peter Whidden
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+extra-source-files:
+    README.md
+
+executable music
+  main-is: Main.hs
+  other-modules:
+      Paths_music
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
