@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: c5aecff9b5356ea94c07bea40f88e06bb2ac29961243280feadd55ecb22ca47d
+-- hash: d119f2d9e0ccef73db69115d07dec63500690e6a6471f78ca8027d950f733e0d
 
 name:           music
 version:        0.1.0.0
@@ -25,5 +25,6 @@ executable music
   hs-source-dirs:
       src
   build-depends:
-      base >=4.7 && <5
+      WAVE
+    , base >=4.7 && <5
   default-language: Haskell2010
